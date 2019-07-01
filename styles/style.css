@@ -1,0 +1,214 @@
+/* Applies default settings to the page */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+/* Sets page to a white background */
+body {
+    background-color: white;
+    
+}
+
+/* Set the demension and color of the navbar */
+.nav {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: gainsboro;
+}
+
+/* Removes the bullets from left-side list items in the navbar */
+.nav .lside {
+    list-style: none;
+}
+
+/* Ensures left-side list items stay to the left  and aligns list items horizontally*/
+.lside {
+    float: left;
+    display: flex;
+}
+
+/* Setting the left-side list items equal to the height of the navbar centers the list items horizontally */
+.lside {
+    line-height: 50px;
+}
+
+/* Removes the underline from all of the anchor tags, sets color of anchor text to gray & aplies spacing to the left and right side of the anchor tangs in the left-side of the navbar */
+.nav .lside li a {
+    text-decoration: none;
+    color: gray;
+    padding: 0 18px;
+}
+
+/* Restores the underline to an anchor tag when hovering over it and sets the color to gray */
+.nav li:hover {
+    text-decoration: underline;
+    text-decoration-color: gray;
+}
+
+/* Removes the bullets from right-side list items in the navbar */
+.nav .rside {
+    list-style: none;
+}
+
+/* Ensures right-side list items stay to the right  and aligns list items horizontally*/
+.rside {
+    float: right;
+    display: flex;
+}
+
+/* Setting the right-side list items equal to the height of the navbar centers the list items horizontally */
+.rside {
+    line-height: 50px;
+}
+
+/* Removes the underline from all of the anchor tags, sets color of anchor text to gray & aplies spacing to the left and right side of the anchor tangs in the right-side of the navbar */
+.nav .rside li a {
+    text-decoration: none;
+    color: gray;
+    padding: 0 18px;
+}
+
+/* Styles the app image in the right side of the navbar */
+.app_logo li img {
+    line-height: 50px;
+    height: 25px;
+    width: 25px;
+    padding-right: 0;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+/* Styles the sign-in button on the right side of the navbar */
+#sign_in {
+    display: inline-block;
+    text-decoration: none;
+    height: 30px;
+    width: 80px;
+    padding: 0 8px;
+    margin-right: 15px;
+    color: rgb(255, 255, 255);
+    background-color: hsl(221, 81%, 51%);
+    border: 0;
+}
+
+/*Styles the ctrPage div*/
+.ctrPage {
+    height: 400px;
+    width: 400px;
+    background-color: white;
+}
+
+/*Sets the position of the ctrPage div*/
+.ctrPage {
+    position: relative;
+    top: 100px;
+    left: 775px;
+}
+
+/*Sets the position of the google main logo div*/
+.mainLogo img {
+    position: relative;
+    left: 10px;
+    top: 0px;
+    height: 300px;
+}
+
+/*Sets the dimenssions of the search box*/
+#searchBox {
+    width: 275px;
+    height: 30px;
+}
+
+/*Sets the position of the search box*/
+#searchBox {
+    position: relative;
+    left: 10px;
+    top: -40px;
+    font-size: 18px;
+}
+
+#searchBox li {
+    list-style: none;
+}
+
+/*Positions and styles the submit button*/
+#submit {
+    position: relative;
+    left: 289px;
+    top: -74px;
+    background-color: hsl(221, 81%, 51%);
+    color: rgb(255, 255, 255);
+    display: block;
+    width: 105px;
+    height: 34px;
+    font-size: 14px;
+    border: 0;
+}
+
+/*Positions and styles the paragraph tag*/
+p {
+    position: relative;
+    left: 10px;
+    top: -55px;
+    font-size: 18px;
+    color: gray;
+}
+
+/* Set the demension and color of the footer */
+.footer {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: gainsboro;
+    line-height: 75px;
+}
+
+/* Removes the underline from all of the anchor tags, sets color of anchor text to gray & aplies spacing to the left and right side of the anchor tags in the footer */
+.l_footer a {
+    text-decoration: none;
+    color: gray;
+    padding: 0 18px;
+}
+
+/* Restores the underline to an anchor tag when hovering over it and sets the color to gray */
+.footer li:hover {
+    text-decoration: underline;
+    text-decoration-color: gray;
+}
+
+/* Ensures left-side list items stay to the left  and aligns list items horizontally*/
+.l_footer {
+    float: left;
+    display: flex;
+    line-height: 50px;
+}
+
+/* Removes the bullets from the anchor tags in the footer */
+.footer .l_footer {
+    list-style: none;
+}
+
+.footer .r_footer {
+    list-style: none;
+}
+
+/* Ensures right-side list items stay to the right  and aligns list items horizontally*/
+.r_footer {
+    float: right;
+    display: flex;
+    line-height: 50px;
+}
+
+/* Removes the underline from all of the anchor tags, sets color of anchor text to gray & aplies spacing to the left and right side of the anchor tags in the footer */
+.r_footer a {
+    text-decoration: none;
+    color: gray;
+    padding: 0 18px;
+}
