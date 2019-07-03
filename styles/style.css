@@ -95,40 +95,31 @@ body {
     border: 0;
 }
 
-/*Styles the ctrPage div*/
-.ctrPage {
-    height: 400px;
-    width: 400px;
-    background-color: white;
-}
-
-/*Sets the position of the ctrPage div*/
-.ctrPage {
+form{
     position: relative;
     top: 100px;
     left: 775px;
+    height: 400px;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
 }
 
 /*Sets the position of the google main logo div*/
 .mainLogo img {
     position: relative;
-    left: 10px;
+    left: 55px;
     top: 0px;
     height: 300px;
-}
-
-/*Sets the dimenssions of the search box*/
-#searchBox {
-    width: 275px;
-    height: 30px;
 }
 
 /*Sets the position of the search box*/
 #searchBox {
     position: relative;
-    left: 10px;
+    left: 20px;
     top: -40px;
     font-size: 18px;
+    width: 350px;
+    height: 29.5px;
 }
 
 #searchBox li {
@@ -138,13 +129,13 @@ body {
 /*Positions and styles the submit button*/
 #submit {
     position: relative;
-    left: 289px;
-    top: -74px;
+    left: 372px;
+    top: -75px;
     background-color: hsl(221, 81%, 51%);
     color: rgb(255, 255, 255);
     display: block;
     width: 105px;
-    height: 34px;
+    height: 35px;
     font-size: 14px;
     border: 0;
 }
@@ -152,7 +143,7 @@ body {
 /*Positions and styles the paragraph tag*/
 p {
     position: relative;
-    left: 10px;
+    left: 30px;
     top: -55px;
     font-size: 18px;
     color: gray;
